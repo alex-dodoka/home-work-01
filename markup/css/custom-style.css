@@ -177,7 +177,7 @@ li {
 }
 
 .search-bar {
-    margin: 17px 35px 17px 0;
+    margin: 17px 0 17px 0;
     width: 191px;
     height: 26px;
     border-radius: 3px;
@@ -189,10 +189,11 @@ li {
 
 
 .search_logo {
-    width: 18px;
-    height: 15px;
-    background-color: #ffffff;
-    box-shadow: 0px -1px 0 0 #231914;
+    height: 26px;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, #000000, #ffffff),
+    linear-gradient(#2c8797, #2c8797);
+    background-blend-mode: overlay, normal;
 }
 
 .info {
