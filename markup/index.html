@@ -8,141 +8,34 @@
 <body>
 <div id="wrapper">
 
-    <header>
-        <div class="header">
-            <div class="logo">
-                <h1>Sitename</h1>
+    <div class="all_site">
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <h1>Sitename</h1>
+                </div>
+
+                <div class="social">
+                    <div class="light"></div>
+                    <div class="dark"></div>
+                    <ul>
+                        <li><img src="images/layer-1.png"></li>
+                        <li><img src="images/layer-2.png"
+                                 srcset="images/layer-2@2x.png 2x,images/layer-2@3x.png 3x"
+                                 class=""></li>
+                        <li><img src="images/layer-3.png"
+                                 srcset="images/layer-3@2x.png 2x,images/layer-3@3x.png 3x"
+                                 class=""></li>
+                        <li><img src="images/layer-4.png"
+                                 srcset="images/layer-4@2x.png 2x,images/layer-4@3x.png 3x"
+                                 class=""></li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="social">
-                <ul>
-                    <li><img src="images/layer-1.png"></li>
-                    <li><img src="images/layer-2.png"
-                             srcset="images/layer-2@2x.png 2x,images/layer-2@3x.png 3x"
-                             class=""></li>
-                    <li><img src="images/layer-3.png"
-                             srcset="images/layer-3@2x.png 2x,images/layer-3@3x.png 3x"
-                             class=""></li>
-                    <li><img src="images/layer-4.png"
-                             srcset="images/layer-4@2x.png 2x,images/layer-4@3x.png 3x"
-                             class=""></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
-    <nav>
-        <div class="nav_bar">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
-
-            <div class="search">
-                <span>search</span>
-                <label>
-                    <input type="text" name="search" class="search-bar">
-                </label>
-                <img src="#" class="search_logo" alt="image">
-            </div>
-        </div>
-    </nav>
-
-    <div class="info">
-
-        <div class="info_content">
-
-            <div class="site_description">
-                <h1>Welcome to our site</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla vitae
-                    accumsan feugiat, odio nisi tristique odio, sit amet dictum quam augue vel urna.
-                    Proin eleifend, erat eu rhoncus suscipit, nisl velit pharetra leo</p>
-                <button>Learn more</button>
-                <button>Our work</button>
-            </div>
-
-            <div class="cool_imgs">
-                <img src="#" alt="image">
-                <img src="#" alt="image">
-            </div>
-
-            <div class="site_map">
-                <p>You&acute;re here: Home &gt; Welcome&hellip;</p>
-            </div>
-        </div>
-
-    </div>
-
-
-    <main>
-        <div class="article_list">
-            <h1>From the blog</h1>
-            <!--block for displaying articles from the server-->
-            <button>The blog</button>
-        </div>
-        <div class="category_sponsors">
-            <div class="category_tags">
-                <ul>
-                    <li>Comments</li>
-                    <li>Categories</li>
-                    <li>Archives</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-            </div>
-            <div class="random_article">
-                <h1>Who we are</h1>
-                <img src="#" alt="image">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-
-            </div>
-            <div class="sponsors_logo">
-                <h1>Sponsors</h1>
-                <img src="#" alt="image">
-                <img src="#" alt="image">
-            </div>
-        </div>
-    </main>
-
-
-    <footer>
-
-        <div class="registration">
-            <h1>Get a free quote</h1>
-            <form name="reg">
-                <input type="text" name="name" placeholder="Your name">
-                <input type="text" name="name" placeholder="Last name">
-                <p><textarea cols="40" rows="3" placeholder="Bla Bla Bla"></textarea></p>
-                <input type="text" name="email" placeholder="Your E-mail adress">
-                <button type="Submit">Submit</button>
-            </form>
-        </div>
-
-        <div class="progect_portfolio">
-            <h1>Our recent projects</h1>
-            <img src="#" alt="image">
-            <img src="#" alt="image">
-            <img src="#" alt="image">
-            <img src="#" alt="image">
-            <button>Portfolio</button>
-        </div>
-
-        <div class="social_comments">
-            <h1>Twitter stream</h1>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-            <button>Follow us</button>
-        </div>
+        </header>
 
         <nav>
-            <div class="copy">
-                <p><a href="#">All Copyrights Reserved</a> 2010 WebsiteName</p>
-            </div>
-            <div class="site_navigation">
+            <div class="nav_bar">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -150,12 +43,127 @@
                     <li>Blog</li>
                     <li>Contact</li>
                 </ul>
+
+                <div class="search">
+                    <span>search</span>
+                    <label>
+                        <input type="text" name="search" class="search-bar">
+                    </label>
+                    <img src="#" class="search_logo">
+                </div>
             </div>
         </nav>
 
-    </footer>
+        <div class="info">
+
+            <div class="info_content">
+
+                <div class="site_description">
+                    <h1 class="greeting">Welcome to our site</h1>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat, nulla vitae
+                        accumsan feugiat, odio nisi tristique odio, sit amet dictum quam augue vel urna.
+                        Proin eleifend, erat eu rhoncus suscipit, nisl velit pharetra leo</p>
+                    <button class="big_btn">Learn more</button>
+                    <button class="big_btn">Our work</button>
+
+                    <div>
+                        <img src="images/main-preview-image.png" alt="image">
+                        <img src="images/sec-preview-image.png" alt="image">
+
+                    </div>
 
 
+                </div>
+                <div class="site_map">
+                    <p>You&acute;re here: Home &gt; Welcome&hellip;</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <main>
+            <div class="article_list">
+                <h1>From the blog</h1>
+                <!--block for displaying articles from the server-->
+                <button>The blog</button>
+            </div>
+            <div class="category_sponsors">
+                <div class="category_tags">
+                    <ul>
+                        <li>Comments</li>
+                        <li>Categories</li>
+                        <li>Archives</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="random_article">
+                    <h1>Who we are</h1>
+                    <img src="#" alt="image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                </div>
+                <div class="sponsors_logo">
+                    <h1>Sponsors</h1>
+                    <img src="#" alt="image">
+                    <img src="#" alt="image">
+                </div>
+            </div>
+        </main>
+
+
+        <footer>
+
+            <div class="registration">
+                <h1>Get a free quote</h1>
+                <form name="reg">
+                    <input type="text" name="name" placeholder="Your name">
+                    <input type="text" name="name" placeholder="Last name">
+                    <p><textarea cols="40" rows="3" placeholder="Bla Bla Bla"></textarea></p>
+                    <input type="text" name="email" placeholder="Your E-mail adress">
+                    <button type="Submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="progect_portfolio">
+                <h1>Our recent projects</h1>
+                <img src="#" alt="image">
+                <img src="#" alt="image">
+                <img src="#" alt="image">
+                <img src="#" alt="image">
+                <button>Portfolio</button>
+            </div>
+
+            <div class="social_comments">
+                <h1>Twitter stream</h1>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                <button>Follow us</button>
+            </div>
+
+            <nav>
+                <div class="copy">
+                    <p><a href="#">All Copyrights Reserved</a> 2010 WebsiteName</p>
+                </div>
+                <div class="site_navigation">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Portfolio</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </nav>
+
+        </footer>
+
+
+    </div>
 </div>
 </body>
 </html>
